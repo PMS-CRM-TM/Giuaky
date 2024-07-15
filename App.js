@@ -122,10 +122,13 @@ const styles = StyleSheet.create({
     padding: 15,
     borderRadius: 10,
     marginTop: 20,
+    width:'90%',
+    padding: 20
   },
   buttonText: {
     color: '#fff',
     fontSize: 16,
+    textAlign: 'center',
   },
   input: {
     width: '90%',
