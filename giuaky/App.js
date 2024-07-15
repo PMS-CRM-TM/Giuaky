@@ -28,16 +28,21 @@ const LoginScreen = () => {
   return (
     <View style={styles.container}>
       <ImageBackground
-        source={{ uri: 'https://cdn.glitch.global/329145d3-e63d-4380-a7c9-94ca08c159a2/IMG_1721039751426_1721039942776.jpg?v=1721040796011' }}
+        source={{ uri: 'https://cdn.glitch.global/329145d3-e63d-4380-a7c9-94ca08c159a2/Screenshot%202024-07-15%20195928.png?v=1721048658620' }}
         style={styles.image}
       >
         <View style={styles.overlay}>
-          <Text style={styles.title1}>Get your groceries with nectar</Text>
+          <View style={styles.overplay1}>
+            <Text style={styles.title1}>Get your groceries with nectar</Text>
+          </View>
           <TextInput
             style={styles.input}
             placeholder="+880"
             keyboardType="phone-pad"
           />
+          <View style={styles.overplay2}>
+            <Text style={styles.title2}>Or connect with social medial</Text>
+          </View>
           <View style={styles.socialContainer}>
             <TouchableOpacity style={styles.socialButton}>
               <Icon name="google" size={30} color="#fff" />
@@ -85,6 +90,11 @@ const styles = StyleSheet.create({
   alignItems: 'center',
   marginBottom:100
   },
+  overplay1: {
+    width: '70%',
+    alignSelf: 'flex-start', 
+    marginLeft: 12,
+  },
   title: {
     fontSize: 50,
     fontWeight: 'bold',
@@ -93,11 +103,14 @@ const styles = StyleSheet.create({
     marginVertical: 20,
   },
   title1:{
-    fontSize: 30,
-    textAlign: 'center',
+    fontSize: 20,
+    textAlign: 'left',
     fontWeight: 'bold',
     color: '#000',
     marginVertical: 20,
+  },
+  title2:{
+    color: '#ccc'
   },
   subtitle: {
     fontSize: 16,
@@ -115,13 +128,10 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   input: {
-    width: '80%',
-    padding: 10,
-    borderColor: '#fff',
-    borderWidth: 1,
-    backgroundColor: '#fff',
-    borderBottomColor: '#000', // Màu xám nhạt của đường viền dưới
-    borderBottomWidth: 1, // Độ dày của đường viền dưới
+    width: '90%',
+    padding: 20,
+    borderBottomColor: '#ccc', 
+    borderBottomWidth: 2, 
     paddingVertical: 10,
     paddingHorizontal: 5,
     marginBottom: 20,
@@ -133,12 +143,14 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     backgroundColor: '#4285F4',
-    padding: 15,
+    padding: 20,
     borderRadius: 5,
     textAlign: 'center',
     marginVertical: 10,
-    width: '90%',
+    width: '100%',
     justifyContent: 'center',
+     borderRadius: 20,
+    
   },
   facebookButton: {
     backgroundColor: '#3b5998',
