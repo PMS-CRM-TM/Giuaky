@@ -1,3 +1,4 @@
 BIT220086 Trần Tuấn Khoa
-![Screenshot 2024-07-15 194805](https://github.com/user-attachments/assets/ee693674-dc0e-417c-9e47-bc25cd9b517f)
-![Screenshot 2024-07-15 194827](https://github.com/user-attachments/assets/6f9c5251-dc98-4633-8645-bc73bdd80dcf)
+![image](https://github.com/user-attachments/assets/2e950a18-eb8c-43f3-ae1e-8b6807c8e5eb)
+![image](https://github.com/user-attachments/assets/0b87fdae-af06-4e7b-80f7-8e55271eab75)
+
